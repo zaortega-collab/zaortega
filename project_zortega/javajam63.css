@@ -1,0 +1,48 @@
+/*Styles for the Footer*/
+footer:{
+	padding: 1em;/*Sets 1em of padding to all sides*/
+	border-top: 2px solid  #8C3826; /*Creats a top border for the footer*/
+	background-color: #D2B48C; /*Set background color */
+	font-size: 0.60em; /*Set text size */
+	font-style: italic; /*Set text to be italic*/
+	text-align: center; /*Align text to the center*/
+}
+
+/*Styles for Main Content*/
+main {
+	padding-left: 0; /*Padding of 0 around the left*/
+	padding-bottom: 2em /*Padding of 2em around the bottom */
+	padding-right: 0; /*Padding of 0 around the right*/
+	display: block;/*Internet Explorer issue*/
+	margin-left: 200 px; /*Set left margin to 200pixels*/
+	padding-top: 0; /*Zero cut the top padding*/
+	background-color: #feF6C2; /*Add color FEF6C2 to the background*/
+	overflow: auto; /*add overflow*/
+}
+
+/*Styles for details*/
+.details {
+	padding-left: 20%; /*20% padding to left*/
+	padding-right: 20%; /*20% padding to right*/
+	overflow: auto;/*clear a float*/
+}
+
+/*class for floating images*/
+.floatleft {
+	float: left;
+	padding-right: 2em;
+	padding-bottom: 2em
+}
+
+/*class for one third*/
+.onethird {
+	float: left;
+	width: 33%;
+}
+
+/*styles for Images*/
+img{
+	padding-left: 10px; /*set 10pixels padding to left */
+	padding-right: 10px; /*set 10pixels padding to right*/
+}
+	

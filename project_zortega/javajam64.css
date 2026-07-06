@@ -1,0 +1,18 @@
+/*styles for home hero */
+#homehero {
+	background-image: url(../images/hero.jpg);/*Set the background Image for the hero div*/
+	height: 300px;/*set height for the hero image*/
+	background-size: 100% 100%;/*set the background image to cover the width of the box the wrapper creats*/
+	background-repeat: no-repeat;/*set the background image to not repeat*/
+}
+
+#heromugs {
+	background-image: url(../images/heromugs.jpg);/*set the background image for the hero div*/
+	height: 300px;/set height for the hero image*/
+	background-size: 100% 100%;/*set the background image to cover the width of the box the wrapper creats*/
+	background-repeat: no-repeat;/*sets the background image to not repeat*/
+}
+
+#heroguitar {
+	background-image: url(../images/heroguitar.jpg); /*set the background Image for the hero div*/
+	height: 300px;/*set height for the hero image*/}

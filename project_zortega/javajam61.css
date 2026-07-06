@@ -1,0 +1,49 @@
+/* Chapter 6 JavaJam Zoey Ortega */
+
+/*Box-Sizing for all elements*/
+* {
+	box-sizing: border-box;
+}
+
+/*Styles for the body */
+Body {
+	background-image: url(../images/fadedroad50.jpg); /*Set fadedroad50 asa background image*/
+	background-repeat: no-repeat; /*Set background-image to not repeat*/
+	background-attachment: fixed; /*set background-attachment to fixed*/
+	background-size: cover; /*Set background-image size to cover*/
+	background-color: #FCEBB6; /*Set background color */
+	color: #221811;/ * Set text color */
+	font-family: Tahoma, Arial, sans-serif /* Define font family */
+}
+/* Styles for the wrapper */
+#wrapper {
+	background-color: #231814; /* Set background color */
+	margin-left: auto;/* Center the element horizontally */
+	margin-right: auto;/* center the element horizontally */
+	width: 80% /*Set width of the wrapper to 80% of the view area...fixed*/
+	min-width: 900px;/* Set minimum width to 900 pixels of the parent container */
+	max-width: 1280px;/*Set maximum width to 1280 pixels of the parents container*/
+	box=shadow: 6px 6px 6px #333;:/*set drop shadow effect on the wrapper*/
+	padding: 0;
+}
+
+/* Styles for the Header */
+header {
+	padding-top: 5px ; /*Set padding to top to 5 pixels*/
+	padding-bottom: 5px ; /*Set padding to bottom to 5 pixels*/
+	color: #231814; /* Set text color */
+	background-color: #D2B48C; /* Set background color */
+	background-image: url(../images/coffeelogo.jpg);/*sets the coffeelogo image in the header*/
+	background-repeat: no-repeat: /*no repeat on the logo*/
+	padding-left: 240px;/*sets left padding to 240 pixels*/
+}
+
+header a {text decoration:none}
+header a:link {color: #231814;}
+header a:visited {color: #231814;}
+header a:hover {color: #FEF6C2;}
+/*Styles for the header */
+main h2, h3, h4, p, div, ul, hl {
+	padding-left: 3em; /*set left paddign of 3em fo rthe h2, h3, h4, p, div,ul, and dl elements*/
+	padding-right: 2em; /* set right padding of 2em for the h2, h3, h4, p, div, ul and dl elements*/
+}

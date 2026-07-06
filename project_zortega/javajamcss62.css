@@ -1,0 +1,43 @@
+h1 { font-size: 3em; /*SEt h1 font size to 3em*/ } 
+h2  { color: #8C3826; } /* Set text color */
+h3, dt { color: #8c3826 }
+h4 {
+	background-color: #d2B48C; /*Set background color for the h4*/
+	font-size: 1.2em; /*Set font size to 1.2em*/
+	padding-left: .5em; /*Set left side padding to .5em*/ 
+	padding-bottom: 0; /*set bottom padding to 0*/
+	text-transform: uppercase; /*capitalize the text*/
+	border-bottom: 1px solid #221811; /*set bottom border*/
+	clear: left; /*clear left float*/
+}
+
+/*Set navigation bar style */
+nav {
+	font-size: 1.5em; /*set nav font size to 1.5 em*/
+	padding-top: 5px ;/*set nav padding to 5 pixels on top*/
+	padding-bottom: 5px ;/*set nav padding to 5 pixels on bottom*/
+	text-align: center; /*Align navigation bar to the center*/
+	font-weight: bold; /* Set font-weight to bold */
+	float: left; /*float nav on left*/
+	width: 200px; /*sets the nav to 200 pixels in width*/
+}
+
+nav A {
+	text-decoration: none; /*removes underlining of the links*/
+}
+/*pseudo class for nav links*/
+nav a:link { 
+	color: #FeF6C2;
+}
+
+nav a:visited {
+	color: #D2B48C;
+}
+
+nav a:hover {
+	color#CC9933;
+}
+
+nav ul {
+	list-style-type: none; /*takes away list markers*/
+	padding-left 0: /*sets left padding to 0*/}
