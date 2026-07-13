@@ -1,0 +1,39 @@
+/* Styles for Navigation */
+nav {
+	font-weight: bold; /* set font weight */
+	text-align: center; /* Align text to the center */
+	font-size: 1.5em; /* Set font size */
+	padding-top 5px; /*Add top padding */
+	padding-bottom: 5px; /* Add bottom padding */
+}
+nav a {
+	text-decoration: none  /* Remove underline from links */
+}
+/* Styles for Main Content */
+main {
+	display: block; /* Display as block element */
+	padding-left: 2em; /* Add left padding */
+	padding-right: 2em; /* Add right padding */
+	padding-bottom; 2em; /* Add bottom padding */
+}
+/* Styles for Details */
+.details {
+	padding-left: 10px; /* Add left padding */
+	padding-right: 10px; /* Add right padding */
+}
+/* Styles for Home Hero */
+#homehero {
+	height: 300px; /* Set height*/
+	background-image: url(../image/hero.jpg); /* Set background image */
+	background-repeat: no-repeat; /* Prevent background image from repeating */
+	background-size: cover; /* Cover the entire element with the background image */
+}
+/* Styles for the Footer */
+footer {
+	background-color: #D2B48C; /* Set background color */
+	font-size: .60em; /* Set font size */
+	font-style: italic; /* Set font style to italic */
+	text-align: center; /* Align text to the center */
+	padding-bootom: 1em; /* Add bottom padding */
+	border-top: 2px solid #8C3826;/* Add top border */
+}
