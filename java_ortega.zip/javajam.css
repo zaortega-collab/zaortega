@@ -1,150 +1,25 @@
-/* Box sizing for all element */
-{
-	box-sizing: border-box;
+/*Styles for the footer*/
+footer {
+	background-color:#D2b48c; /*Background color*/
+	font-size: .60em; /*Font Size*/
+	font-styles: italic; /*Font style*/
+	text-align: center; /*Align text to the center */
+	padding-bottom: 1em; /*add bottom padding */
+	border-top: 2px solid #8C3826; /* Add top border*/
 }
-/*Styles for the Body*/
-body {
-	background-color: #D2B48C; /*Background color*/
-	color: #221811; /* Text color */
-	font-family: Tahoma, Arial, sans-serif; /*Font Family */
-	margin: 8; /* Reset default margin */
-}
-/*Styles for the wrapper */
-#wrapper {
-	background-color: #231814; /*background color */
-	padding: 0; /*remove padding */
-}
-/* Styles for the header */
-header {
-	background-color: #D2B8C; /* Background color */
-	background-image: url(../image/cup.jpg); /* Background image */
-	background-repeat: no-repeat; /*Prevent background aimge from repeating */
-	color: #231814; /*Text Color */
-	height: 128px; /* Set height */
-	padding-left: 105px; /*add left padding*/
-	padding-top: 5px; /*add top padding*/
-	padding-bottom: 5px; /*Add bottom padding*/
-}
-header a {
-	text-decoration:none; /*Remove underline from links */
-}
-header a:link {
-	color: #231814; /*link color*/
-}
-header a:visited {
-	color:#231814; /*visited link color*/
-	}
-	header a:hover {
-		color:FEF6C2; /*Hover link color*/
-}
-/*Styles for heading*/
-h1 {
-	font-size:2em; /*font size for h1*/
-}
-h2 {
-	color: #8C33826; /*text color for h2
-h3, dt {
-	color:#8C3826; /* Text color for h3 and dt */
-}
-h4 {
-	background: #D2B48C; /*Background color for h4*/
-	font-size: 1.2em; /*font size for h4*/
-	padding-left: .5em; /*add left padding */
-	padding-bottom:0; /*Remove bottom padding 8?
-	text-transform: uppercase; /*conver text to uppercase */
-	border-bottom: 1px solid #221811; /*add bottom border */
-	clear: left; /*clear float*/
-}
-/*styles for navigation *.
-nav {
-	text-align: center; /Align text to the cetner */
-	font-size: 1.5em; /Font size */
-}
-nav a{
-	text-decoration: none; /* remove underliine from links.
-}
-nav a:link {
-	color:#D2b$8C; /*hover link color*/
-}
-nav ul {
-	display: flex; /* use flextbox */
-	flexdirection: column;/*arrange items in a column*/
-	font-size: 1.25em;/*Font size*/
-	list-style-type: none; /*Remove list bullet *.
-	margin 0; /*Remove default margin */
-	padding:0; /*Remove default padding */
-}
-Nav li {
-	border-bottom: 1px solid #FEF6c2; /*add bottom border*/
-	padding: .5em 1em; /*add [adding */
-	width: 100; /*set width*/
-}
-/*styles for main content */
-main{
-	background-color: #FEF6C2; /*Background color */
-	display: block; /*Display as block element */
-	padding: 0 0 2em 0; /*add padding */
-}
-h2, h3, h4, p, div, u1, d1 {
-padding-left: 1em; /*add left padding */
-padding right: 1em; /*add right padding*
-}
-main u1{
-	padding-left 2em; /*Add left padding */
-}
-/*styles for details*/
-details{
-	padding-left: 20%/*add left padding*/
-	padding-right:20%; /* add right padding*/
-	overflow; auto; /* add overflow*/
-}
-/* Styles for Images */
-img{
-	padding-left 10px; /* add left padding */
-	padding-right: 10px; /*add right padding */
-}
-/*Styles for Home hero*/
-#homehero{ 
-	height: 300px;
-	background-image: url(../image/road.jpg;)
-	background-repeat: no-repeat;
-	background-size: 100% 100%
-}
-#heromugs {
-	height: 300px;
-	backgroundimage: url(../image/threemugs.jpg)
-	background-repeat: no-repeat;
-	background size: 100% 100%;
-}
-#heroguitar{
-	height: 300px;
-	background-image: url(../image/threemugs.jpg)
-	background-repeat: no-repeat;
-	background-size: 100% 100%
-}
-/*styles for mobile*/
-#mobile {
-	display: inline;/*display as inline element */
+/*Table Styles*/
+table{
+	marging: auto; /* Center the table */
+	width: 90% /* Set width to 90% of the container */
+	border-spacing: 0; /* Remove spacing between table cells*/
 }
 
-/*styles for destop*/
-#desktop {
-	display: none; /*hide element*/
+th,td {
+	padding: 10px; /*add padding to table cells */
 }
-/*styles for footer */
-footer{
-	background-color: #D2B48C;
-	font-size:.60em;
-	font-style: italic;
-	text-align: center;
-	padding-bottom: 1em;
-	border-top: 2px solid #8C3826;
+tr:nth-of-type(odd) {
+	background-color: #D2B48E; /* Background color for odd rows*/
 }
-/* Media Query for desktop */
-@media (min-width: 600px) (
-	header (
-		padding-left: 0; /*Remove left padding */
-		text-align: center; /*align text to the center */
-		)
-		
-	
+/*Media Query for Mobile */
+@media (min-width: 600px) {
+header 

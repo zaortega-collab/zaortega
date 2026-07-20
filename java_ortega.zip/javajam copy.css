@@ -1,0 +1,51 @@
+{
+h4 {
+	margin-left:10%; /*Add left margin*/
+	margin-right:10%; /*Add right margin*/
+}
+form {
+	width: 40%; /*Set Width*/
+	display: grid; /*Use grid layout*/
+	grid-gap: 1em; /* Set gap between grid items */
+	gap: 1em; /* Set gap */
+	grid-template-columns: 6em 1fr; /* Define grid template columns */
+}
+input[type="submit"] {
+	grid-column: 2/3; /*set grid column span*/
+	width: 9em; /*set width*/
+}
+#herojobs{
+	background-image: url(herojobs.jpg); /*change background image*/
+}
+
+}	
+
+
+/*media query for desktop*/
+@media (min-width: 1024px) {
+ @supports (display:grid) {
+ 
+ table{
+ 	margin: auto; /*Center the table*/
+ 	width: 90% /*Set width to 90% of the container */
+ 	border-spacing: 0; /*Remove spacing between table cells*/
+}
+th,td {
+	padding: 10px; /*Add padding to table cells*/
+}
+tr:nth-of-type(odd) {
+	background-color: #D2B48E; /* Background color for odd rows*/
+}
+/*Form styles*/
+form{
+	display: flex; /*Use flexbox*/
+	flex-direction: column; /*Arrange items in a column */
+	padding-left: 1em; /*add left padding*/
+	width: 80%; /*Set width*/
+}
+input, textarea{
+margin-bottom: .5em; /*Add bottom margin*/
+}
+/*Media query for mobile*/
+@media(min-width: 600px) {
+	header{}
